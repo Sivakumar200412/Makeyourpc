@@ -1,0 +1,33 @@
+:root {
+  --background:linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  --foreground: #f7f7f7;
+  --primary: #ffd700;
+  --primary-dark: #ffb300;
+  --accent: #00b4d8;
+  --card: #141414;
+  --card-alt: #181818;
+  --border: #222;
+  --shadow: rgba(0,0,0,0.85);
+  --link: #ffd700;
+  
+}
+
+[data-theme="dark"] {
+  --background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  --foreground: #f7f7f7;
+  --primary: #c9c3a2;
+  --primary-dark: #ffb300;
+  --accent: #00b4d8;
+  --card: #141414;
+  --card-alt: #181818;
+  --border: #222;
+  --shadow: rgba(0,0,0,0.85);
+  --link: #ffd700;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}

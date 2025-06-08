@@ -1,0 +1,84 @@
+.cart-page {
+  padding: 2.5rem 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: var(--card);
+  border-radius: 15px;
+  box-shadow: 0 2px 14px var(--shadow);
+  transition: background 0.3s, color 0.3s;
+}
+
+.cart-page h2 {
+  text-align: center;
+  color: var(--primary-dark);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  background: var(--card-alt);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 6px var(--shadow);
+  transition: background 0.3s;
+}
+
+.cart-item:hover {
+  background: var(--primary);
+}
+
+.cart-item h4 {
+  color: var(--primary-dark);
+  margin-bottom: 0.3rem;
+}
+
+.cart-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.cart-controls button {
+  background: var(--primary);
+  color: var(--foreground);
+  border: none;
+  padding: 0.3rem 0.85rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+
+.cart-controls button:hover,
+.cart-controls button:focus {
+  background: var(--accent);
+  color: #fff;
+  transform: scale(1.07);
+  outline: none;
+}
+
+.cart-summary button {
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+
+.cart-summary button:hover,
+.cart-summary button:focus {
+  background: var(--primary);
+  color: var(--foreground);
+  transform: scale(1.04);
+  outline: none;
+}
